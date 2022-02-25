@@ -1,5 +1,5 @@
 /*
- *Ability to create a Queue of 56->30->70
+ *Ability to dequeue from the beginning
  */
 package com.bridgelabz;
 
@@ -10,6 +10,12 @@ public class Main {
 		queue.enqueue(56);
 		queue.enqueue(30);
 		queue.enqueue(70);
+		queue.showElements();
+		queue.dequeue();
+		queue.showElements();
+		queue.dequeue();
+		queue.showElements();
+		queue.dequeue();
 		queue.showElements();
 	}
 }
